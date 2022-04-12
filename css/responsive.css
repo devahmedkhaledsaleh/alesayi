@@ -1,0 +1,151 @@
+@media only screen and (max-width: 991px) {
+    .best-seller .best-seller-product .image {
+        border-right: none;
+        border-left: none;
+    }
+    .services .services-items .services-item {
+        width: 50%;
+    }
+    .services .services-items .services-item::after {
+        display: none;
+        width: 4px;
+        height: 61px;
+        background-color: #e6ecf4;
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 40px;
+    }
+    .services .services-items .services-item::before {
+        display: block;
+        width: 4px;
+        height: 61px;
+        background-color: #e6ecf4;
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 40px;
+    }
+    .services .col-lg-3:nth-of-type(2) {
+        border-right: none;
+        border-left: none;
+    }
+    .services .services-items .services-item:nth-last-of-type(3):before,
+    .services .services-items .services-item:nth-last-of-type(1):before {
+        display: none;
+    }
+    .footer {
+        /* text-align: center; */
+    }
+    .footer .contact .media .media-body {
+        /* justify-content: center; */
+    }
+    .product-page .product-page-details .product-page-details-info .add-cart-count button {
+        width: 50%;
+    }
+    .all-navigator {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .bar {
+        text-align: center;
+    }
+    .bar .logo {
+        margin-bottom: 10px;
+    }
+    /* .bar .logo,
+    .bar .search {
+        margin-bottom: 10px;
+    } */
+    .account-cart::before {
+        display: none;
+    }
+    .bar .account-cart {
+        margin-top: 10px;
+    }
+    /* .bar .account-cart .account {
+        margin-bottom: 20px;
+    } */
+    .open-menu-all {
+        justify-content: center;
+    }
+    .best-seller .best-seller-product .image,
+    .sub-categories .content .content-products .content-product .image,
+    .main-categories .content .content-products .content-product .image {
+        border-right: none;
+        border-left: none;
+    }
+    .sub-categories .content .content-products .content-product,
+    .main-categories .content .content-products .content-product,
+    .best-seller .best-seller-product {
+        text-align: center;
+        border-bottom: 2px solid #85a5c8;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .best-seller .best-seller-product .rate {
+        justify-content: center;
+    }
+    .services .col-lg-3 {
+        border: none;
+    }
+    .services .services-items .services-item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .services .services-items .services-item::after {
+        display: none;
+        width: 4px;
+        height: 61px;
+        background-color: #e6ecf4;
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 40px;
+    }
+    .services .services-items .services-item::before {
+        display: none;
+        width: 4px;
+        height: 61px;
+        background-color: #e6ecf4;
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 40px;
+    }
+    .sub-categories .content .content-products .content-product {
+        text-align: center;
+        border-bottom: 2px solid #85a5c8;
+        margin-bottom: 20px;
+    }
+    .sub-categories .content .content-products .content-product .rate ul {
+        justify-content: center;
+    }
+    .main-categories .content .content-products .content-product {
+        text-align: center;
+        border-bottom: 2px solid #85a5c8;
+        margin-bottom: 20px;
+    }
+    .main-categories .content .content-products .content-product .rate ul {
+        justify-content: center;
+    }
+    .product-page .product-page-related .product-page-related-product {
+        text-align: center;
+        border-bottom: 2px solid #85a5c8;
+        margin-bottom: 20px;
+    }
+    .product-page .product-page-related .product-page-related-product .rate ul {
+        justify-content: center;
+    }
+    .search-page .search-content .content-product {
+        text-align: center;
+        border-bottom: 2px solid #85a5c8;
+        margin-bottom: 20px;
+    }
+    .search-page .search-content .content-product .rate ul {
+        justify-content: center;
+    }
+}

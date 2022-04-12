@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap');
+body {
+    font-family: 'Cairo';
+    font-size: 14px;
+    direction: rtl;
+    text-align: right;
+}
+
+.search .search-box .search-box-button {
+    left: 5px;
+    right: auto;
+}
+
+.main-categories .categories .categories-items .categories-item .categories-item-link .categories-item-title {
+    margin-right: 10px;
+}
+
+.main-categories .categories .more {
+    text-align: left;
+}
+
+.services .col-lg-3 {
+    border-left: 2px solid #cedae9;
+    border-right: none;
+}
+
+.services .col-lg-3:last-of-type {
+    border-left: none;
+}
+
+.list-unstyled {
+    padding-right: 0px;
+}
+
+.footer .contact .media .media-body p {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.newsletter-border .newsletter-box .newsletter-box-button {
+    left: 5px;
+    right: auto;
+}
+
+.cart-content .order-summary .coupon button {
+    left: 0;
+    right: auto;
+}
+
+.cart-content .order-summary ul li span {
+    float: left;
+}
+
+.login-form h2::before {
+    right: 0;
+    left: auto;
+}
+
+.register-form h2::before {
+    right: 0;
+    left: auto;
+}
+
+.best-seller .best-seller-product .image {
+    border-right: none;
+    padding-right: 0;
+    border-left: 2px solid #f7f7f7;
+    padding-left: 10px;
+}
+
+.best-seller .col-lg-3:last-of-type .best-seller-product .image {
+    border-left: none;
+}
+
+.sub-categories .content .content-products .content-product .image {
+    border-right: none;
+    padding-right: 0;
+    border-left: 2px solid #f7f7f7;
+    padding-left: 10px;
+}
+
+.sub-categories .content .content-products .col-lg-3:nth-of-type(4) .content-product .image,
+.sub-categories .content .content-products .col-lg-3:nth-of-type(8) .content-product .image,
+.sub-categories .content .content-products .col-lg-3:nth-of-type(12) .content-product .image,
+.sub-categories .content .content-products .col-lg-3:nth-of-type(16) .content-product .image,
+.sub-categories .content .content-products .col-lg-3:nth-of-type(20) .content-product .image,
+.sub-categories .content .content-products .col-lg-3:nth-of-type(24) .content-product .image,
+.sub-categories .content .content-products .col-lg-3:nth-of-type(28) .content-product .image,
+.sub-categories .content .content-products .col-lg-3:nth-of-type(32) .content-product .image,
+.sub-categories .content .content-products .col-lg-3:nth-of-type(36) .content-product .image,
+.sub-categories .content .content-products .col-lg-3:nth-of-type(40) .content-product .image,
+.sub-categories .content .content-products .col-lg-3:nth-of-type(44) .content-product .image {
+    border: none;
+}
+
+.main-categories .content .content-products .content-product .image {
+    border-right: none;
+    padding-right: 0;
+    border-left: 2px solid #f7f7f7;
+    padding-left: 10px;
+}
+
+.main-categories .content .content-products .col-lg-3:nth-of-type(4) .content-product .image,
+.main-categories .content .content-products .col-lg-3:nth-of-type(8) .content-product .image,
+.main-categories .content .content-products .col-lg-3:nth-of-type(12) .content-product .image,
+.main-categories .content .content-products .col-lg-3:nth-of-type(16) .content-product .image,
+.main-categories .content .content-products .col-lg-3:nth-of-type(20) .content-product .image,
+.main-categories .content .content-products .col-lg-3:nth-of-type(24) .content-product .image,
+.main-categories .content .content-products .col-lg-3:nth-of-type(28) .content-product .image,
+.main-categories .content .content-products .col-lg-3:nth-of-type(32) .content-product .image,
+.main-categories .content .content-products .col-lg-3:nth-of-type(36) .content-product .image,
+.main-categories .content .content-products .col-lg-3:nth-of-type(40) .content-product .image,
+.main-categories .content .content-products .col-lg-3:nth-of-type(44) .content-product .image {
+    border: none;
+}
+
+.search-page .search-content .content-product .image {
+    border-right: none;
+    padding-right: 0;
+    border-left: 2px solid #f7f7f7;
+    padding-left: 10px;
+}
+
+.search-page .search-content .col-lg-3:nth-of-type(4) .content-product .image,
+.search-page .search-content .col-lg-3:nth-of-type(8) .content- .image,
+.search-page .search-content .col-lg-3:nth-of-type(12) .content-product .image,
+.search-page .search-content .col-lg-3:nth-of-type(16) .content- .image,
+.search-page .search-content .col-lg-3:nth-of-type(20) .content-product .image,
+.search-page .search-content .col-lg-3:nth-of-type(24) .content-product .image,
+.search-page .search-content .col-lg-3:nth-of-type(28) .content-product .image,
+.search-page .search-content .col-lg-3:nth-of-type(32) .content-product .image,
+.search-page .search-content .col-lg-3:nth-of-type(36) .content- .image,
+.search-page .search-content .col-lg-3:nth-of-type(40) .content-product .image,
+.search-page .search-content .col-lg-3:nth-of-type(44) .content-product .image {
+    border: none;
+}
+
+.sub-categories .content .filter .icon-control {
+    float: left;
+}
+
+.sub-categories .content .filter .card .switch-box .switch-turn-on {
+    right: auto;
+    padding-left: 20px;
+    left: 0;
+    padding-right: 20px;
+}
+
+.sub-categories .content .filter .card .switch-box .switch-turn-off {
+    display: none;
+    left: auto;
+    padding-left: 10px;
+    right: 0;
+    padding-right: 10px;
+}
+
+.sub-categories .content .filter .card .switch-box .switch .on:checked+label+input+label+div+div {
+    right: auto;
+    left: 0;
+}
+
+.main-categories .content .filter .icon-control {
+    float: left;
+}
+
+.main-categories .content .filter .card .switch-box .switch-turn-on {
+    right: auto;
+    padding-left: 20px;
+    left: 0;
+    padding-right: 20px;
+}
+
+.main-categories .content .filter .card .switch-box .switch-turn-off {
+    display: none;
+    left: auto;
+    padding-left: 10px;
+    right: 0;
+    padding-right: 10px;
+}
+
+.main-categories .content .filter .card .switch-box .switch .on:checked+label+input+label+div+div {
+    right: auto;
+    left: 0;
+}
+
+
+/* .product-page .product-page-details .product-page-details-info .add-cart-count button {
+    right: auto;
+    left: 0px;
+} */
+
+.footer .contact {
+    border-left: none;
+    padding-left: 0;
+    border-right: 1px solid #cedae9;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width: 780px) {
+    .footer .contact {
+        border-right: none;
+        padding-right: 0;
+    }
+}
+
+.account-cart .cart .cart-link .cart-number {
+    right: 20px;
+    left: 0px;
+}
